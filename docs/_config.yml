@@ -2,10 +2,12 @@ remote_theme: pmarsceill/just-the-docs
 
 # Auxiliary links for the upper right navigation.
 aux_links:
-  "Portfolio":
-  - "http://dcolli23.github.io"
-  "Python How Tos Repo":
-  - "http://github.com/Campbell-Muscle-Lab/howtos_Python"
+ "Email Me":
+  - "mailto:dylanfrankcolli@gmail.com"
+  "My GitHub":
+  - "http://github.com/dcolli23"
+  "My LinkedIn":
+  - "http://www.linkedin.com/in/dylan-colli"
 
 # Not a big fan of dark mode. I think the light looks better.
 # color_scheme: "dark"
