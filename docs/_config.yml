@@ -2,10 +2,8 @@ remote_theme: pmarsceill/just-the-docs
 
 # Auxiliary links for the upper right navigation.
 aux_links:
-  "Campbell Muscle Lab":
-  - "http://www.campbellmusclelab.org"
-  "Lab GitHub":
-  - "http://campbell-muscle-lab.github.io"
+  "Portfolio":
+  - "http://dcolli23.github.io"
   "Python How Tos Repo":
   - "http://github.com/Campbell-Muscle-Lab/howtos_Python"
 
@@ -16,7 +14,7 @@ aux_links:
 # logo: "/assets/images/example-image.png"
 
 # Footer
-footer_content: "Written by the Campbell Muscle Lab"
+footer_content: "Written by Dylan Colli"
 
 # This is the title of the website
 title: "Python How Tos"
