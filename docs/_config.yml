@@ -2,7 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 
 # Auxiliary links for the upper right navigation.
 aux_links:
- "Email Me":
+  "Email Me":
   - "mailto:dylanfrankcolli@gmail.com"
   "My GitHub":
   - "http://github.com/dcolli23"

@@ -2,6 +2,7 @@
 title: Exporting an Environment
 nav_order: 1
 parent: Anaconda Environment Management
+grand_parent: Environment Management
 ---
 
 # Exporting an Environment

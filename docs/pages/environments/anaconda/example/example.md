@@ -2,6 +2,7 @@
 title: Step-by-Step Example
 nav_order: 1
 parent: Anaconda Environment Management
+grand_parent: Environment Management
 ---
 
 # Step-by-Step Example

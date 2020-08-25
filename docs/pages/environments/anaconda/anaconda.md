@@ -2,6 +2,7 @@
 title: Anaconda Environment Management
 nav_order: 2
 has_children: true
+parent: Environment Management
 ---
 
 # Anaconda Environment Management
