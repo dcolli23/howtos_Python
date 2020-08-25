@@ -15,9 +15,7 @@ This page goes over the basics of Environment Management through the Anaconda Py
 
 # Why Anaconda Environments?
 
-That's a great question! An important part of science, especially computational science, is reproducibility. Being able to do an experiment on your own is great but it's important to be able to regenerate figures, expand upon existing experiments in the future, and make the tools available to the broader research community. A major barrier to reproducibility in the world of computational science is package dependencies. Packages used within computer code can change over time and old code can break or the behavior can be modified in negative ways thanks to those changes. When sharing code, we want to be able to setup a computer ecosystem that is exactly the same as when we were developing the code. To do this, we use 'environments.'
-Anaconda is the most popular Python distribution for data science and is a great tool for environment management.
-Note: Environments are meant to serve as a way to ensure that Python package installations on separate systems are the same. Environments are not like GitHub repositories in the sense that they take a “snapshot” of the folder you are working in. If you accidentally delete a file that is not version controlled through software like Git, you can’t recover it with environments!
+Anaconda is the most popular Python distribution for data science and is a great tool for environment management. Note: I've recently started to use `pipenv` and `pew` over Anaconda since I have found that maintaining Anaconda environments can become a rat's nest over time. I'm keeping this up for posterity's sake, though.
 
 # Installing Anaconda
 
