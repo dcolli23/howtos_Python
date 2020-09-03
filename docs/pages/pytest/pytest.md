@@ -5,6 +5,10 @@ has_children: True
 ---
 
 # PyTest
+{:.no_toc}
+
+* TOC
+{:toc}
 
 This document goes over what PyTest is, how to write tests for PyTest, and how to run test suites written in PyTest.
 

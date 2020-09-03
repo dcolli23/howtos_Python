@@ -5,6 +5,10 @@ parent: PyTest
 ---
 
 # Advanced PyTest Instructions
+{:.no_toc}
+
+* TOC
+{:toc}
 
 Using PyTest effectively is more than writing a simple test. One must set up the testing framework for a repository in a standardized way across all repositories in an organization.
 
@@ -48,3 +52,11 @@ where all repository tests are included under the `Repo_root\Python_files\module
 Any data that any of the tests need, such as model files, options files, status files, etc are all stored in the `data` folder and tracked via Git.
 
 The `output` folder is used as the location where all tests write their output. This means that any tests that run simulations or generate any sort of file as part of the test should write to the `output` folder. This folder is part of the repository's `.gitignore` file and thus is not tracked via git, so don't put anything here that you'll need to run tests on a different machine.
+
+## Verbose PyTest Output
+
+PyTest usually captures all of the output from the tests that you are running to simplify the output. However, sometimes you'd like to view that output. To do this, use:
+
+```
+pytest -s
+```
